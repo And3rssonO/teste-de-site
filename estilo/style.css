@@ -21,9 +21,9 @@
     --fonte3:"Bodoni Moda SC", serif;
 }
 
-/*html, body{
-    height: 100vh;
-}*/
+body{
+    background-color: var(--cor4);
+}
 
 header{
     background-image: linear-gradient(to top, var(--cor2), var(--cor4));
@@ -110,7 +110,7 @@ article{
 }
 
 img.pequena{
-    max-width: 400px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
